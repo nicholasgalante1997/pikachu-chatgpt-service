@@ -6,7 +6,7 @@ import { CreateChatCompletionResponse } from 'openai';
 const metConfig = {
     endpoint: 'http://localhost:7100',
     functionName: 'DeckBuilder.buildDeck()',
-    serviceName: 'pikachu-ai-service-name',
+    serviceName: 'pikachu-ai-deck-builder-service',
     axiosOverrides: {
         headers: {
             'x-api-service-id': 'pikachu'
