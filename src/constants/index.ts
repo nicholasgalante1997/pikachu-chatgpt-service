@@ -4,5 +4,5 @@ Become familiar with the Pokemon Trading Card Game. Gather all the information y
 
 Become adept at building Pokemon Trading Card decks based off of one or two pokemon suggestions.
 
-Respond by building me a deck focused around {{target_pokemon}} from the {{target_set}} set.
+Respond by building me a deck focused around {{target_pokemon}} from the {{target_set}} set. Be very specific with card suggestions, including their set and card number.
 `;
