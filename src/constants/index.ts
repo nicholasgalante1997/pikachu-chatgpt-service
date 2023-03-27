@@ -8,7 +8,11 @@ Respond by building me a deck focused around {{target_pokemon}} from the {{targe
 
 I do not want to see any mention of your limitations in the response. The format I want is 
 
-- A list of the Pokemon cards to be included in the deck, including set and card number.
-- A short blurb of the strategy behind this deck
+- A list of the Pokemon cards to be included in the deck, including set and card number. Be sure to include energy and trainer cards. Make sure it is a full 60 card deck.
+- A short blurb of the strategy behind this deck. Be exceedingly brief with the strategy points. Do not mention attacks or abilities specific to pokemon, instead suggest more general strategy behind this deck.
+
+---
+HIGH PRIORITY: Every card you suggest should be a real card that exists as part of the Pokemon TCG canon.
+---
 
 `;

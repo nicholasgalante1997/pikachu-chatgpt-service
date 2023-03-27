@@ -9,6 +9,6 @@ export function validateReq(req: Request, res: Response, next: NextFunction) {
     if (envKeySafeCheck === reqHeaderKey) {
         next();
     } else {
-        res.status(301).json({ exception: "Unauthorized attempt to access resources. Key not present on request."})
+        res.status(401).json({ exception: "Unauthorized attempt to access resources. Key not present on request."})
     }
 }
