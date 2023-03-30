@@ -1,5 +1,5 @@
 import { Response, Request } from 'express';
-import { MetricConfig, MetricAsync } from '@nickgdev/porygon-metlib/lib/node-exports';
+import { MetricConfig, MetricAsync } from '@nickgdev/porygon-metlib/lib';
 import { DeckBuilder } from './services';
 import { CreateChatCompletionResponse } from 'openai';
 
