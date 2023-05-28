@@ -1,0 +1,19 @@
+services:
+  pikachu:
+    image: pikachu-ai-deck-service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    environment:
+      - POKEMON_TCG_API_KEY=${POKEMON_TCG_API_KEY}
+      - OPEN_AI_ORGANIZATION=${OPEN_AI_ORGANIZATION}
+      - OPEN_AI_API_KEY=${OPEN_AI_API_KEY}
+      - X_PIKACHU_AI_SERVICE_KEY=${X_PIKACHU_AI_SERVICE_KEY}
+      - NODE_ENV=production
+    expose:
+      - "4001"
+    ports:
+      - "4001:4001"
+    restart: on-failure
+
